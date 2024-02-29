@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Quotee",
+    "slug": "quotee",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/Quotee.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.quoter.quotee"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Quotee.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.quoter.quotee"
+    },
+    "web": {
+      "favicon": "./assets/Quotee.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "166fda18-dbe5-4793-9085-7de2489cc163"
+      }
+    }
+  }
+}
